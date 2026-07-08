@@ -5,6 +5,6 @@ public class Guerreiro extends Personagem {
 
     @Override
     public void usarHabilidadeEspecial() {
-        System.out.println(nome + " ergueu sua espada e lançou um golpe poderoso!");
+        System.out.println(getNome() + " ergueu sua espada e lançou um golpe poderoso!");
     }    
 }

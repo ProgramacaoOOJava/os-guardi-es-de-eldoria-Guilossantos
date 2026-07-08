@@ -5,6 +5,6 @@ public class Arqueira extends Personagem {
 
     @Override
     public void usarHabilidadeEspecial() {
-        System.out.println(nome + " disparou uma flecha precisa!");
+        System.out.println(getNome() + " disparou uma flecha precisa!");
     }    
 }

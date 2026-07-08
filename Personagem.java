@@ -1,9 +1,9 @@
 public abstract class Personagem {
-    String nome;
-    String classe;
-    int nivel;
-    int pontosDeVida;
-    double poderBase;
+    private String nome;
+    private String classe;
+    private int nivel;
+    private int pontosDeVida;
+    private double poderBase;
 
     public Personagem(String nome, String classe, int nivel, int pontosDeVida, double poderBase) {
         this.nome = nome;
@@ -22,5 +22,22 @@ public abstract class Personagem {
     }
     
     public abstract void usarHabilidadeEspecial();
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getClasse() {
+        return classe;
+    }
+    public int getNivel() {
+        return nivel;
+    }
+    public int getPontosDeVida() {
+        return pontosDeVida;
+    }
+    public double getPoderBase() {
+        return poderBase;
+    }
 }
 
